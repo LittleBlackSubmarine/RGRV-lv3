@@ -118,6 +118,8 @@ rhoN = _rho / mat.sqrt(pow(_x, 2) + pow(_y, 2))
 print("\n Theta angle: " + str(thetaN) + " degrees")
 print("\n Rho distance: " + str(rhoN) + "mm")
 
+cv.destroyAllWindows()
+
 
 
 
